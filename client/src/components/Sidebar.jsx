@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from 'react';
 import toast from 'react-hot-toast';
 import { NavLink } from 'react-router-dom';
 import { Home, Dumbbell, CheckSquare, BarChart2, User, Footprints, Target, SunMoon } from 'lucide-react';
-import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 
 const Sidebar = () => {
